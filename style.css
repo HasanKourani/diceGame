@@ -1,0 +1,92 @@
+body{
+  background-color: #393E46;
+}
+
+.container{
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+h1{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  color: #4ECCA3;
+  font-size: 8rem;
+  text-shadow: 4px 4px 4px #232931;
+}
+
+.dice{
+  margin-top: 5px;
+  display: inline-block;
+}
+
+h2{
+  font-family: 'Indie Flower', cursive;
+  color: #4ECCA3;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.btn-con{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn{
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+  font-family: 'Indie Flower', cursive;
+  color: #393E46;
+  background-color: #4ECCA3;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #232931;
+}
+
+.btn:hover{
+  background-color: #277e61;
+  transition: 0.3s;
+}
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10%;
+  color: #4ECCA3;
+}
+
+@media (max-width: 415px){
+
+  .container{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+  }
+
+
+  h1{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    color: #4ECCA3;
+    font-size: 4.5rem;
+    text-shadow: 4px 4px 4px #232931;
+  }
+
+  .dice{
+    margin-top: 5px;
+    display: inline-block;
+  }
+
+  .dice > img{
+    width: 135px;
+  }
+  
+  h2{
+    font-family: 'Indie Flower', cursive;
+    color: #4ECCA3;
+    font-size: 2em;
+    font-weight: lighter;
+  }
+}
